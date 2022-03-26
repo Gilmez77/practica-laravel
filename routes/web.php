@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/saludo', function () {
-    return ('hola mundo');
+    return ('hola s mundo');
 });
 Route::get('/usuario/show{$id}', function ($id) {
     return 'Usuario'.$id;
